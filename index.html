@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ganamos.net - Carga tu Usuario</title>
+    
+    <!-- Meta Pixel Code -->
+    <script>
+    !function(f,b,e,v,n,t,s)
+    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+    n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+    if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+    n.queue=[];t=b.createElement(e);t.async=!0;
+    t.src=v;s=b.getElementsByTagName(e)[0];
+    s.parentNode.insertBefore(t,s)}(window, document,'script',
+    'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '2640162259779774');
+    fbq('track', 'PageView');
+    </script>
+    <noscript><img height="1" width="1" style="display:none"
+    src="https://www.facebook.com/tr?id=2640162259779774&ev=PageView&noscript=1"
+    /></noscript>
+    <!-- End Meta Pixel Code -->
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- FontAwesome for WhatsApp & Casino Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts: Orbitron (Futuristic/Eye-catching) & Montserrat -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@800;900&family=Montserrat:wght@700;800;900&family=Rubik+Glitch&display=swap" rel="stylesheet">
+    
+    <style>
+        body {
+            font-family: 'Montserrat', sans-serif;
+            background: radial-gradient(circle at center, #2e0854 0%, #17032d 70%, #0d011a 100%);
+            min-height: 100vh;
+        }
+
+        /* Tipografía rara, llamativa y estilizada para ESTAMOS CARGANDO */
+        .glitch-text {
+            font-family: 'Orbitron', 'Rubik Glitch', sans-serif;
+            text-shadow: 
+                0 0 10px #d8b4fe,
+                0 0 20px #a855f7,
+                0 0 30px #9333ea,
+                0 0 40px #7e22ce;
+            animation: pulse-glow 1.8s infinite alternate;
+            letter-spacing: 2px;
+        }
+
+        @keyframes pulse-glow {
+            0% {
+                transform: scale(0.98);
+                text-shadow: 0 0 10px #d8b4fe, 0 0 20px #a855f7;
+            }
+            100% {
+                transform: scale(1.02);
+                text-shadow: 0 0 20px #f43f5e, 0 0 35px #a855f7, 0 0 50px #9333ea;
+            }
+        }
+
+        /* Botón estilo WhatsApp deslumbrante */
+        .btn-whatsapp {
+            background: linear-gradient(135deg, #25D366 0%, #128C7E 100%);
+            box-shadow: 0 0 25px rgba(37, 211, 102, 0.6);
+            transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+        }
+
+        .btn-whatsapp:hover {
+            transform: translateY(-4px) scale(1.03);
+            box-shadow: 0 0 40px rgba(37, 211, 102, 0.9);
+        }
+
+        /* Banner de bono brillante */
+        .bono-banner {
+            background: linear-gradient(90deg, rgba(234,179,8,0.15) 0%, rgba(250,204,21,0.3) 50%, rgba(234,179,8,0.15) 100%);
+            border: 2px solid #eab308;
+            box-shadow: 0 0 30px rgba(234, 179, 8, 0.3);
+        }
+
+        /* Partículas / destellos flotantes en el fondo */
+        .bg-glow-1 {
+            position: absolute;
+            width: 250px;
+            height: 250px;
+            background: #9333ea;
+            filter: blur(120px);
+            opacity: 0.5;
+            top: 5%;
+            left: 5%;
+            z-index: 0;
+            border-radius: 50%;
+        }
+
+        .bg-glow-2 {
+            position: absolute;
+            width: 250px;
+            height: 250px;
+            background: #25d366;
+            filter: blur(140px);
+            opacity: 0.25;
+            bottom: 5%;
+            right: 5%;
+            z-index: 0;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body class="flex flex-col justify-between items-center text-white min-h-screen relative overflow-x-hidden p-3 sm:p-5">
+
+    <div class="bg-glow-1"></div>
+    <div class="bg-glow-2"></div>
+
+    <!-- Container Principal Responsivo -->
+    <main class="relative z-10 w-full max-w-md sm:max-w-lg mx-auto my-auto flex flex-col items-center text-center py-4 sm:py-6 px-1 sm:px-2">
+        
+        <!-- LOGO RECREADO FIELMENTE AL ORIGINAL -->
+        <div class="w-full mb-4 sm:mb-8 transform hover:scale-105 transition-transform duration-300">
+            <svg viewBox="0 0 650 160" class="w-full h-auto filter drop-shadow-[0_10px_15px_rgba(0,0,0,0.7)]">
+                <defs>
+                    <!-- Gradiente metálico plateado para las letras GANAMOS -->
+                    <linearGradient id="silverGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+                        <stop offset="0%" stop-color="#ffffff"/>
+                        <stop offset="30%" stop-color="#f0f0f0"/>
+                        <stop offset="50%" stop-color="#cccccc"/>
+                        <stop offset="70%" stop-color="#e6e6e6"/>
+                        <stop offset="100%" stop-color="#888888"/>
+                    </linearGradient>
+
+                    <!-- Sombra/Borde metálico -->
+                    <filter id="dropShadow" x="-10%" y="-10%" width="120%" height="120%">
+                        <feDropShadow dx="0" dy="4" stdDeviation="3" flood-color="#000000" flood-opacity="0.8"/>
+                    </filter>
+
+                    <!-- Gradiente Dorado para .NET -->
+                    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+                        <stop offset="0%" stop-color="#ffe600"/>
+                        <stop offset="50%" stop-color="#d4af37"/>
+                        <stop offset="100%" stop-color="#aa7c11"/>
+                    </linearGradient>
+
+                    <!-- Pattern Violeta Diamante para la pica -->
+                    <linearGradient id="purpleGems" x1="0%" y1="0%" x2="100%" y2="100%">
+                        <stop offset="0%" stop-color="#9333ea"/>
+                        <stop offset="50%" stop-color="#581c87"/>
+                        <stop offset="100%" stop-color="#3b0764"/>
+                    </linearGradient>
+                </defs>
+
+                <g filter="url(#dropShadow)" font-family="'Montserrat', sans-serif" font-weight="900">
+                    <!-- Letra G -->
+                    <text x="5" y="110" font-size="125" fill="url(#silverGrad)" stroke="#333" stroke-width="2">G</text>
+
+                    <!-- SIMBOLO DE LA PICA (A que reemplaza la A) -->
+                    <g transform="translate(95, 20)">
+                        <!-- Fondo/Silueta exterior plateada de la pica -->
+                        <path d="M 45,0 C 45,0 90,60 90,85 C 90,110 65,115 45,95 C 25,115 0,110 0,85 C 0,60 45,0 45,0 Z" fill="url(#silverGrad)"/>
+                        <!-- Pie de la pica -->
+                        <path d="M 35,90 L 55,90 L 62,118 L 28,118 Z" fill="url(#silverGrad)"/>
+                        
+                        <!-- Interior con facetas estilo diamante violeta -->
+                        <path d="M 45,6 C 45,6 82,58 82,80 C 82,100 60,105 45,88 C 30,105 8,100 8,80 C 8,58 45,6 45,6 Z" fill="url(#purpleGems)"/>
+                        
+                        <!-- Facetas dibujadas -->
+                        <path d="M 45,6 L 45,88 M 45,6 L 25,50 L 8,80 M 45,6 L 65,50 L 82,80 M 25,50 L 65,50 M 25,50 L 45,88 L 65,50" stroke="#c084fc" stroke-width="1.5" fill="none" opacity="0.7"/>
+
+                        <!-- Adorno tribal/espiral de plata dentro de la pica -->
+                        <path d="M 45,35 Q 55,45 45,65 Q 38,75 48,82" stroke="url(#silverGrad)" stroke-width="6" fill="none" stroke-linecap="round"/>
+                    </g>
+
+                    <!-- Letras NAMOS -->
+                    <text x="185" y="110" font-size="125" fill="url(#silverGrad)" stroke="#333" stroke-width="2" letter-spacing="-2">NAMOS</text>
+
+                    <!-- .NET en Dorado abajo a la derecha -->
+                    <g transform="translate(430, 150)">
+                        <circle cx="-12" cy="-12" r="8" fill="url(#goldGrad)" />
+                        <text x="0" y="0" font-size="48" fill="url(#goldGrad)" stroke="#5b3e00" stroke-width="1" letter-spacing="12">NET</text>
+                    </g>
+                </g>
+            </svg>
+        </div>
+
+        <!-- TEXTO: ESTAMOS CARGANDO -->
+        <div class="my-4 sm:my-6">
+            <h2 class="glitch-text text-2xl sm:text-4xl md:text-5xl font-black uppercase tracking-wider text-purple-200">
+                ¡ESTAMOS CARGANDO!
+            </h2>
+            <div class="flex items-center justify-center gap-2 mt-2 sm:mt-3 text-purple-300 opacity-90 text-xs sm:text-sm font-semibold tracking-widest uppercase">
+                <span class="inline-block w-2 h-2 rounded-full bg-green-400 animate-ping"></span>
+                Atención las 24hs / Respuesta Inmediata
+            </div>
+        </div>
+
+        <!-- BOTON DE WHATSAPP: "Crea tu usuario" CON ROTADOR -->
+        <div class="w-full my-4 sm:my-6">
+            <a id="whatsappBtn" 
+               href="#" 
+               target="_blank" 
+               rel="noopener noreferrer"
+               onclick="redirectToRotatedWhatsapp(event)"
+               class="btn-whatsapp w-full flex items-center justify-center gap-3 sm:gap-4 py-4 sm:py-5 px-5 sm:px-8 rounded-2xl text-white text-xl sm:text-3xl font-extrabold uppercase tracking-wide cursor-pointer decoration-none border-2 border-green-300/40">
+                <i class="fa-brands fa-whatsapp text-3xl sm:text-5xl animate-bounce"></i>
+                <span>Crea tu usuario</span>
+            </a>
+        </div>
+
+        <!-- BANNER DE BONO EN EL DEPOSITO -->
+        <div class="bono-banner w-full mt-2 sm:mt-4 p-4 sm:p-5 rounded-2xl backdrop-blur-md relative overflow-hidden transform hover:scale-105 transition-transform">
+            <!-- Icono decorativo de ficha/regalo -->
+            <div class="text-amber-400 text-xs sm:text-sm font-bold uppercase tracking-widest mb-1 flex items-center justify-center gap-2">
+                <i class="fa-solid fa-gift"></i> Promoción Exclusiva <i class="fa-solid fa-coins"></i>
+            </div>
+            <p class="text-amber-300 font-black text-lg sm:text-2xl md:text-3xl uppercase tracking-wide drop-shadow-[0_2px_4px_rgba(0,0,0,0.9)]">
+                APROVECHA TU BONO EN EL DEPÓSITO
+            </p>
+        </div>
+
+        <!-- Badges de confianza adicionales para estética casino -->
+        <div class="grid grid-cols-3 gap-2 sm:gap-3 w-full mt-6 sm:mt-8 text-[10px] sm:text-xs text-purple-200/70 font-medium">
+            <div class="bg-purple-950/60 border border-purple-800/50 p-2 sm:p-3 rounded-xl flex flex-col items-center gap-1">
+                <i class="fa-solid fa-bolt text-amber-400 text-base sm:text-lg"></i>
+                <span>Cargas Rápidas</span>
+            </div>
+            <div class="bg-purple-950/60 border border-purple-800/50 p-2 sm:p-3 rounded-xl flex flex-col items-center gap-1">
+                <i class="fa-solid fa-shield-halved text-green-400 text-base sm:text-lg"></i>
+                <span>100% Seguro</span>
+            </div>
+            <div class="bg-purple-950/60 border border-purple-800/50 p-2 sm:p-3 rounded-xl flex flex-col items-center gap-1">
+                <i class="fa-solid fa-headset text-purple-400 text-base sm:text-lg"></i>
+                <span>Soporte 24/7</span>
+            </div>
+        </div>
+
+    </main>
+
+    <!-- Footer sencillo -->
+    <footer class="relative z-10 text-center text-purple-400/50 text-[10px] sm:text-xs py-3 sm:py-4">
+        © GANAMOS.NET - Todos los derechos reservados. Solo para mayores de 18 años.
+    </footer>
+
+    <!-- LÓGICA DEL ROTADOR DE WHATSAPP -->
+    <script>
+        // Lista de números para rotar
+        const whatsappNumbers = [
+            '5491161116630',
+            '5491125746106',
+            '5491161160630'
+        ];
+
+        // Mensaje predeterminado para el chat
+        const defaultMessage = encodeURIComponent("Hola! Quiero crear mi usuario y aprovechar el bono de depósito");
+
+        // Función para obtener el siguiente número usando localStorage para una distribución equitativa
+        function getRotatedNumber() {
+            let currentIndex = parseInt(localStorage.getItem('wa_rotator_index') || '0', 10);
+            const selectedNumber = whatsappNumbers[currentIndex % whatsappNumbers.length];
+            
+            // Incrementar para la siguiente visita / clic
+            localStorage.setItem('wa_rotator_index', (currentIndex + 1) % whatsappNumbers.length);
+            
+            return selectedNumber;
+        }
+
+        // Configura el enlace dinámico al cargar la página
+        function setupWhatsappButton() {
+            const btn = document.getElementById('whatsappBtn');
+            if (btn) {
+                const number = getRotatedNumber();
+                btn.href = `https://wa.me/${number}?text=${defaultMessage}`;
+            }
+        }
+
+        // Maneja el clic, dispara evento Meta Pixel y redirige
+        function redirectToRotatedWhatsapp(event) {
+            // Disparar evento de Meta Pixel
+            if (typeof fbq === 'function') {
+                fbq('track', 'Contact');
+            }
+        }
+
+        // Inicializar al cargar
+        document.addEventListener('DOMContentLoaded', setupWhatsappButton);
+    </script>
+
+</body>
+</html>
